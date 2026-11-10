@@ -12,7 +12,7 @@
 <link rel="icon" href="logo.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;700;900&family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Cairo:wght@500;700;900&family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
 <style>
   :root{
     --gold-1:#fff6c9;
@@ -116,7 +116,12 @@
     45%,100%{background-position:-20% 0}
   }
   .tag{
-    font-size:15px;color:#e9d9a6;opacity:.9;text-align:center;
+    font-family:"Aref Ruqaa","Amiri","Cairo",serif;font-weight:700;
+    font-size:clamp(30px,9vw,46px);line-height:1.4;text-align:center;white-space:nowrap;
+    background:linear-gradient(180deg,#fff6c9 0%,#f7d774 35%,#d4a52c 60%,#8a5f12 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    filter:drop-shadow(0 2px 3px rgba(0,0,0,.9)) drop-shadow(0 0 12px rgba(212,165,44,.35));
+    margin-top:-4px;
   }
   .divider{
     width:70%;height:2px;border-radius:2px;
@@ -222,7 +227,7 @@
       </div>
     </div>
 
-    <p class="tag">معرض حماده الدش للسيارات</p>
+    <p class="tag">حمادة الدش للسيارات</p>
     <div class="divider"></div>
 
     <nav class="links">
